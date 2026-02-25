@@ -1,5 +1,4 @@
-# Ashru07.github.io
-##Ashru Sarker
+## Ashru Sarker
 Student of Computer Science and Student
 
 ## About Me
@@ -11,7 +10,7 @@ communication skills, teamwork ability and a positive learning attitude with the
 explain technical concepts clearly. Motivated detail-oriented and eager to apply theoretical
 knowledge to real-world applications.
 
-##Skills
+## Skills
 Programming Languages: C, C++ and C#.
 Web Technologies: HTML, CSS and JavaScript.
 Backend: SQL Server and Oracle SQL Developer.
@@ -21,12 +20,12 @@ and Agentic IDEs.
 Collaboration and Communication: Fast learner, strong
 technical communicator and reliable team collaborator.
 
-##Projects
+## Projects
 Bank Management System
 C-based Banking Management desktop application using the Windows API, featuring GUI-driven account
 management, secure admin/user roles and file-based data persistence.
 
-##Education
+## Education
 Secondary School Certificate (2020)
 Karfa Public Academy, Barishal
 GPA: 5.00 / 5.00
@@ -39,11 +38,11 @@ B.Sc.(Engg.) in Computer Science and Engineering (2023-2027)
 Mawlana Bhashani Science and Technology University, Santosh-1902
 CGPA: 3.40 / 4.00 (through 4 semesters)
 
-##Certifications
+## Certifications
 C#.NET Training Certification (EDGE Program)
 80-hour hands-on training covering C#, .NET fundamentals, OOP and application development
 under the ICT Division and Bangladesh Computer Council.
 
-##Contact
+## Contact
 You can reach me at [Phone](+8801319730039) or [E-mail](ashru11062005@gmail.com) or [LinkedIn](https://linkedin.com/in/ashru-sarker/) or [GitHub](https://github.com/Ashru07).
 
