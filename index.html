@@ -90,6 +90,8 @@
         </div>
         <div class="about-ctas">
           <a class="btn" href="assets/resume.pdf" download>Download Resume</a>
+          <a class="btn" href="assets/best_ui.pdf" download>Best UI PDF</a>
+          <a class="btn" href="assets/worst_ui.pdf" download>Worst UI PDF</a>
         </div>
       </div>
     </section>
@@ -122,18 +124,40 @@
       <div class="container">
         <h2>Projects</h2>
         <div class="projects-grid">
-          <article class="project-card" data-title="Bank Management System" data-desc="GUI-based banking system using C and Windows API. Implements login, registration, admin controls, deposits, withdrawals and transfers; stores data in text files with yearly profit calculations." data-links="#">
-            <div class="thumb">B</div>
+          <article class="project-card" data-title="Bank Management System" data-desc="GUI-based banking system using C and Windows API. Implements login, registration, admin controls, deposits, withdrawals and transfers; stores data in text files with yearly profit calculations." data-links="https://github.com/Ashru07/Bank-Management-System">
+            <div class="thumb" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3 10h18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                <path d="M5 10V20" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                <path d="M9 10V20" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                <path d="M15 10V20" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                <path d="M19 10V20" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                <path d="M4 20h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                <path d="M4 10l8-4 8 4" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+                <circle cx="12" cy="14.5" r="1.6" fill="currentColor"/>
+              </svg>
+            </div>
             <h3>Bank Management System</h3>
             <p>GUI-based banking system (C / Windows API) with user login, admin controls and basic transaction management. Data persisted in text files with reporting.</p>
-            <button class="btn view-btn">View</button>
+            <div class="project-actions project-actions-single">
+              <button class="btn view-btn">CodeBase</button>
+            </div>
           </article>
 
-          <article class="project-card" data-title="Academic Projects & Competitions" data-desc="Multiple academic projects including web pages, databases and algorithmic challenges. Strong competitive programming background with 700+ solved problems." data-links="#">
-            <div class="thumb">P</div>
-            <h3>Academic Projects & Competitions</h3>
-            <p>Several course projects (web development, DBMS) and active competitive programming: 700+ problems solved on platforms like Codeforces, LeetCode, AtCoder and CodeChef.</p>
-            <button class="btn view-btn">View</button>
+          <article class="project-card" data-title="ToDo-WebApp" data-desc="A modern, responsive todo dashboard built with React, Vite, and Tailwind CSS. It supports task filtering, search, priority and category management, dark mode, progress tracking, and localStorage persistence." data-links="https://github.com/Ashru07/ToDo-WebApp">
+            <div class="thumb" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 7.5L12 4l8 3.5L12 11 4 7.5Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+                <path d="M4 12l8 3.5L20 12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M4 16.5l8 3.5 8-3.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3>ToDo-WebApp</h3>
+            <p>Modern todo dashboard with task filtering, search, progress tracking and category/priority management.</p>
+            <div class="project-actions">
+              <button class="btn view-btn">CodeBase</button>
+              <button class="btn view-btn" data-url="https://ashru07.github.io/ToDo-WebApp/">Live</button>
+            </div>
           </article>
         </div>
       </div>

@@ -37,10 +37,16 @@ const modalDesc = document.getElementById('modalDesc');
 const modalLink = document.getElementById('modalLink');
 document.querySelectorAll('.view-btn').forEach(btn=>{
   btn.addEventListener('click', e=>{
-    const card = e.target.closest('.project-card');
+    const button = e.currentTarget;
+    const card = button.closest('.project-card');
+    const link = button.dataset.url || card.dataset.links || '#';
+    if(link && link !== '#'){
+      window.location.href = link;
+      return;
+    }
     modalTitle.textContent = card.dataset.title;
     modalDesc.textContent = card.dataset.desc;
-    modalLink.href = card.dataset.links || '#';
+    modalLink.href = link;
     modal.setAttribute('aria-hidden','false');
   });
 });
